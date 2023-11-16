@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    color: red;
+}
+
+#quiz-container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#question {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#options li {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    background-color: black;
+    color: red; 
+}
+
+#options li:hover {
+    background-color: #333;
+}
+
+#submit {
+    margin-top: 20px;
+    background-color: red; 
+    color: black; 
+    border: none;
+}
+
+#submit:hover {
+    background-color: #a00; 
+}
